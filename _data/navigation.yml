@@ -1,0 +1,12 @@
+# Sidebar Navigation Links
+docs:
+  - title: "Home"
+    url: "/"
+  - title: "Setup Guide"
+    url: "/setup/"
+  - title: "Usage Guide"
+    url: "/usage/"
+  - title: "Configuration"
+    url: "/configuration/"
+  - title: "Contributing"
+    url: "/contributing/"

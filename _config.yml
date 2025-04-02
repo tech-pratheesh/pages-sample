@@ -1,0 +1,36 @@
+# Set up Just the Docs theme for GitHub Pages
+title: Project Documentation
+description: A simple documentation site with sidebar navigation.
+baseurl: "/pages-sample"  # Change this to match your repo name if using GitHub Pages
+url: "https://tech-pratheesh.github.io"
+
+# Use Just the Docs theme (GitHub Pages compatible)
+remote_theme: just-the-docs/just-the-docs
+
+# Sidebar navigation settings
+nav_order: 1
+has_children: true
+
+# Enable search functionality
+search_enabled: true
+
+# Define the navigation structure
+nav:
+  - title: "Home"
+    url: /
+  - title: "Setup Guide"
+    url: /setup/
+  - title: "Usage Guide"
+    url: /usage/
+  - title: "Configuration"
+    url: /configuration/
+  - title: "Contributing"
+    url: /contributing/
+
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - node_modules/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
